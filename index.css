@@ -1,0 +1,87 @@
+/*Ximena López Pereda A01339853*/
+/*Adrián Jacinto Cruz A01651886*/
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbarTop {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.titulo {
+  margin-right: auto;
+  font-family: "LTC Swing";
+}
+
+.navbarTop div {
+  border: 10px;
+  padding-right: 100px;
+  font-size: x-large;
+  color: #ddaa44;
+  font-family: "Montserrat";
+}
+
+.navbarTop div:hover {
+  color: grey;
+}
+
+.centerImage {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  overflow: hidden;
+  padding-top: 70px;
+  margin-bottom: 200px;
+}
+
+.centerImage img {
+  width: 100%;
+  height: 500px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  left: 0;
+  bottom: 1;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socials h2 {
+  font-family: "Montserrat";
+}
+
+.icons {
+  display: flex;
+}
+
+.icons img {
+  height: 32px;
+  width: 32px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.videoP {
+  display: block;
+  width: 50%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}

@@ -1,0 +1,40 @@
+/*Ximena López Pereda A01339853*/
+/*Adrián Jacinto Cruz A01651886*/
+.userInfo {
+  margin-top: 100px;
+  margin-left: 100px;
+  font-family: "Montserrat";
+  color: #ddaa44;
+}
+
+.userInfo form {
+  color: black;
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid #ddaa44;
+  font-size: 30px;
+}
+
+button:hover {
+  background-color: #ddaa44;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.tituloC {
+  margin-left: 5%;
+  margin-top: 100px;
+  font-family: "Montserrat";
+  color: #ddaa44;
+}

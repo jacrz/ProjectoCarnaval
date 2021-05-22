@@ -1,0 +1,86 @@
+<!--Ximena López Pereda A01339853-->
+<!--Adrián Jacinto Cruz A01651886-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="index.css">
+    <title>El carnaval Pizzeria</title>
+</head>
+<body>
+    
+    <div class = "navbarTop">
+        <div class = "titulo">
+           <a href = "index.html"> El Carnaval </a>
+        </div>
+        <div>
+            <a href = "html/menu.html">Menu</a>
+        </div>
+        <div>
+            <a href = "html/promociones.html">Promociones</a>
+        </div>
+        <div>
+            <a href = "html/historia.html">Historia</a>
+        </div>
+        <div>
+            <a href = "html/sucursal.html">Sucursal</a>
+        </div>
+        <div>
+            <a href = "html/contacto.html">Contácto</a>
+        </div>
+    </div>
+
+   <div class = "centerImage">
+        <img class = "slide" src="img/Slides1.jpg" alt="">
+        <img class = "slide" src="img/Slides2.jpg" alt="">
+        <img class = "slide" src="img/Slides3.jpg" alt="">
+        <img class = "slide" src="img/Slides4.jpg" alt="">
+   </div>
+
+   <script>
+       var myIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slide");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+   </script>
+
+   <div class = "videoP">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/j2jySJ6qZ10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
+   <div class = "socials">
+        <h2>Siguenos en nuestras redes</h2>
+        <div class = "icons">
+            <a href = "https://www.facebook.com/el.carnaval.pizzeria/">
+            <img src="img/iconfinder_Circled_Facebook_svg_5279111.png" alt="facebook logo">
+            </a>  
+            <a href = "https://www.instagram.com/elcarnavalpizzeria/?fbclid=IwAR0MOlQOqYcT3MCBZr1TjJKTKOJXNU-7ZR5siMCLoMkhiQugTewPCTXwGf4"> 
+            <img src="img/iconfinder_Circled_Instagram_svg_5279112.png" alt="Instagram logo">
+            </a> 
+            <a href="https://www.pinterest.es/adonigon/pizzas/">
+                <img src="img/iconfinder_Circled_Pinterest_svg_5279116.png" alt="Pinterest logo">
+            </a>
+            <a href="https://www.tumblr.com/tagged/PIZZA?sort=top">
+                <img src="img/iconfinder_Circled_Tumblr_svg2_5279124.png" alt="Tumblr logo">
+            </a>
+            <a href="https://www.youtube.com/watch?v=hPA-RcE9fXQ">
+                <img src="img/iconfinder_Circled_Youtube_svg_5279120.png" alt="YT logo">
+            </a>
+        </div>
+   </div>
+    
+
+</body>
+</html>

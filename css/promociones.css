@@ -1,0 +1,31 @@
+/*Ximena López Pereda A01339853*/
+/*Adrián Jacinto Cruz A01651886*/
+.imgPromos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.promos {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.promos h2 {
+  font-family: "Montserrat";
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  border: 5px solid #ddaa44;
+}
+
+h1 {
+  margin-left: 5%;
+  margin-top: 100px;
+  font-family: "Montserrat";
+  color: #ddaa44;
+}
